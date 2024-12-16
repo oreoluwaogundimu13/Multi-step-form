@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(206, 94%, 87%) ;
+    position: relative;
+}
+
+.hero {
+    width: 60%;
+    height: 75%;
+    background:  hsl(0, 0%, 100%) ;
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    gap: 3rem;
+    
+}
+
+aside:nth-child(1){
+        width: 30%;
+        margin: 1rem;
+        background-image: url(../assets/images/bg-sidebar-desktop.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+}
+
+aside:nth-child(1) .info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-transform: uppercase;
+}
+
+aside:nth-child(1) .info .one {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 8px;
+   
+}
+
+.step1 h4 {
+    font-size: 11px;
+    color: hsl(229, 24%, 87%);
+}
+
+.step1 h3 {
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+aside:nth-child(1) .plan {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+aside:nth-child(1) .plan .two {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 8px;
+    background-color: hsl(228, 100%, 84%);
+}
+
+.step2 h4 {
+    font-size: 11px;
+    color: hsl(229, 24%, 87%);
+}
+
+.step2 h3 {
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+
+aside:nth-child(1) .add {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+aside:nth-child(1) .add .three {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.step3 h4 {
+    font-size: 11px;
+    color: hsl(229, 24%, 87%);
+    
+}
+
+.step3 h3 {
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+aside:nth-child(1) .summary {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+aside:nth-child(1) .summary .four {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.step4 h4 {
+    font-size: 11px;
+    color: hsl(229, 24%, 87%);
+}
+
+.step4 h3 {
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+aside:nth-child(2) {
+       width: 70%;
+       padding-right: 6rem;
+       padding-top: 3rem;   
+}
+
+aside:nth-child(2) h1 {
+    color: hsl(213, 96%, 18%);
+}
+
+aside:nth-child(2) p {
+    color: hsl(0, 0%, 60%);
+    margin-top: 0.5rem;
+}
+.boxes {
+    width: 100%;
+    height:  50%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.box {
+    width: 40%;
+    height: 70%;
+    border: 1px solid hsl(243, 100%, 62%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.box .price {
+    margin-top: 2rem;
+}
+.price h3 {
+    font-size: 17px;
+    color: hsl(213, 96%, 18%);
+}
+.price h4 {
+    color: hsl(229, 24%, 87%);
+}
+.dates {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(240, 17%, 98%);
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 0.3rem;
+    margin-bottom: 3rem;
+}
+.year {
+    color: hsl(229, 24%, 87%);
+}
+
+
+label {
+    display: inline-block; 
+    /* position: fixed;  */
+    width: 50px;
+    height: 20px;
+    background-color: #181818;
+    /* bottom: 50px;
+    right: 30px; */
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+ label .indicator {
+    /* position: absolute; */
+    width: 20px;
+    height: 20px;
+    background-color: hsl(231, 100%, 99%);
+    border-radius: 50%;
+    /* top: 2px;
+    left: 4px; */
+    transition: 0.5s;
+}
+
+.btn {
+    gap: 5rem;
+}
+
+#go {
+    border: none;
+    color: hsl(213, 96%, 18%);
+    font-weight: 550;
+}
+#next {
+    padding: 10px 10px;
+    border: none;
+    color: hsl(231, 100%, 99%);
+    background-color:  hsl(213, 96%, 18%);
+    border-radius: 5px;
+    margin-left: 15rem;
+}
